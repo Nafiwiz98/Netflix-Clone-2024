@@ -1,0 +1,66 @@
+.header_outer_container{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: blue; */
+}
+.nav-black{
+    background-color: rgb(20, 20, 20);
+}
+.header_container{
+    width: 90%;
+    display: flex;
+    /* background: #000; */
+    /* background-color: blue; */
+
+}
+.header-left{
+    /* background-color: green; */
+    
+}
+.header-left ul{
+    display: flex;
+}
+.header-left li{
+    list-style: none;
+    padding: 13px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.netflixlogo img{
+    height: 35px;
+    width: 100px;
+    margin-top: none;
+    /* background: #000; */
+    justify-content: center;
+    text-align: center;
+}
+.header-right{
+    /* background-color: #fff; */
+    margin-left: 610px;
+    
+}
+.header-right ul{
+    display: flex;
+    list-style: none;
+   
+    /* background: red; */
+}
+.header-right ul li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    /* background: red; */
+}
